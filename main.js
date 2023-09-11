@@ -11,7 +11,7 @@ function onLoad() {
 	app.updateCanvas();
 	
 	const spriteCanvas = new SpriteSheetContainer(app.map.tileSize);
-	spriteCanvas.loadFromUrl("/assets/dungeons.png");
+	spriteCanvas.loadFromUrl("/karo/assets/dungeons.png");
 	spriteCanvas.onSelected = tile => app.setTile(tile);
 	spriteCanvas.onImageLoaded = img => app.map.setImageSource(img);
 }
