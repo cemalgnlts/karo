@@ -1,5 +1,5 @@
-import { App } from "/scripts/App.js";
-import { SpriteSheetContainer } from "/scripts/SpriteSheetContainer.js";
+import { App } from "/karo/scripts/App.js";
+import { SpriteSheetContainer } from "/karo/scripts/SpriteSheetContainer.js";
 
 const app = new App();
 
